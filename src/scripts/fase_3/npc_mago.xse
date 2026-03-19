@@ -1,0 +1,32 @@
+#dynamic 0x800000
+
+' NPC Mago - Fase 3
+' Script: el Mago pregunta si quieres un ítem.
+' Guardar en: src/scripts/fase_3/npc_mago.xse
+
+#org @main
+  msgbox @pregunta MSG_YESNO
+  compare LASTRESULT 0x1
+  if 0x1 goto @dar_item
+  msgbox @adios MSG_NORMAL
+  end
+
+#org @dar_item
+  checkitemspace ITEM_REPEL 0x1
+  compare LASTRESULT 0x0
+  if 0x1 goto @bolsa_llena
+  giveitem ITEM_REPEL 0x1 MSG_OBTAIN
+  end
+
+#org @bolsa_llena
+  msgbox @texto_lleno MSG_NORMAL
+  end
+
+#org @pregunta
+  = ¡Viajero! Tengo un Repelente\nde sobra. ¿Lo quieres?
+
+#org @adios
+  = ¡Está bien! ¡Buen viaje!
+
+#org @texto_lleno
+  = No tienes espacio en la bolsa.\nVuelve cuando tengas lugar.

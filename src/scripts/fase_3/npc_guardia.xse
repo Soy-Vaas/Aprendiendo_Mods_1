@@ -1,0 +1,24 @@
+#dynamic 0x800000
+
+' NPC Guardia - Fase 3
+' Script: bloquea el paso si el flag FLAG_GUARDIA_LIBRE no está activo.
+' FLAG_GUARDIA_LIBRE = 0x500  (flag seguro para mods)
+
+#org @main
+  checkflag 0x500
+  if 0x1 goto @libre
+  msgbox @bloqueado MSG_NORMAL
+  end
+
+#org @libre
+  applymovement 0x1 @movimiento_retiro
+  waitmovement 0x0
+  end
+
+#org @bloqueado
+  = La guardia está cerrada.\nNecesitas el permiso especial.
+
+#org @movimiento_retiro
+  #raw 0x0A  ' Camina hacia arriba 1 paso
+  #raw 0x0A  ' Camina hacia arriba 1 paso
+  #raw 0xFE  ' Fin
