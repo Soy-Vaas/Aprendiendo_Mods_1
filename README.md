@@ -15,7 +15,7 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 ## Plan de desarrollo por fases (principiante y solo)
 
 1. **Preparar entorno**
-   - Consigue una *ROM limpia* de Rojo Fuego (no la subas al repositorio; compartir ROMs con copyright sin autorización viola derechos de autor/propiedad intelectual).
+   - Consigue una *ROM limpia* de Rojo Fuego (no la subas al repositorio; compartir ROMs con copyright sin autorización viola las leyes de derechos de autor).
    - Instala emulador (mGBA) y un editor de mapas/eventos (A-Map o similar).
    - Elige flujo de trabajo:  
      - **Ruta Scripts** (más sencilla): usar Poryscript/XSE + A-Map.  
@@ -47,6 +47,6 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 
 ## Cómo usar este repositorio
 
-- Guarda aquí tus scripts, notas y versiones de prueba (nunca subas la ROM).  
+- Guarda aquí tus scripts, notas y versiones de prueba (nunca subas la ROM; ver nota legal arriba).  
 - Lleva un changelog breve por cada iteración (qué evento tocaste, qué probaste).  
 - Mantén los pasos pequeños y probados en emulador antes de seguir.
