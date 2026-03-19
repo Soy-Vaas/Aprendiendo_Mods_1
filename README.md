@@ -5,17 +5,17 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 ## Qué lenguaje y recursos necesito
 
 - **Scripting específico de Pokémon (Poryscript o XSE):** Sirve para eventos, diálogos y lógica básica.  
-  - Docs: [Poryscript](https://github.com/huderlem/poryscript#readme), guías de XSE en foros de romhacking de Pokémon.
+  - Docs: [Poryscript](https://github.com/huderlem/poryscript#readme), guías de XSE en foros de romhacking como [PokéCommunity](https://www.pokecommunity.com/forumdisplay.php?f=180) o [Wah Hack](https://whackahack.com/foro/).
 - **C básico (opcional, si usas decompilación pret/pokefirered):** Permite cambios profundos si tomas el proyecto decompilado.  
-  - Docs: [K&R C](https://publications.gbdirect.co.uk/c_book/), tutoriales de C en cppreference.
+  - Docs: [K&R C](https://publications.gbdirect.co.uk/c_book/), tutoriales de C en [cppreference](https://en.cppreference.com/w/c).
 - **ARM Assembly GBA (solo nociones, opcional):** Útil para entender parches y hacks.  
-  - Docs: Notas de ARM7TDMI y guías de gba-dev.
+  - Docs: [GBATEK](http://problemkaputt.de/gbatek.htm), wiki de [gba-dev](https://www.coranac.com/tonc/text/asm.htm) y notas de ARM7TDMI.
 - **Herramientas de romhacking GBA:** A-Map (mapas/eventos), unhexed/hex editor, compilador de scripts (poryscript-cli o XSE), emulador (mGBA/vBA) para pruebas.
 
 ## Plan de desarrollo por fases (principiante y solo)
 
 1. **Preparar entorno**
-   - Consigue una *ROM limpia* de Rojo Fuego (no la subas al repositorio; debes poseer tu copia legítima, crear backups personales puede depender de tu jurisdicción y distribuir ROMs/mods sin autorización suele ser ilegal).
+   - Consigue una *ROM limpia* de Rojo Fuego (haz un volcado de tu propio cartucho; no la subas al repositorio. Descargar ROMs de internet o distribuir ROMs/mods sin autorización suele ser ilegal).
    - Instala emulador (mGBA) y un editor de mapas/eventos (A-Map o similar).
    - Elige flujo de trabajo:  
      - **Ruta Scripts** (más sencilla): usar Poryscript/XSE + A-Map.  
