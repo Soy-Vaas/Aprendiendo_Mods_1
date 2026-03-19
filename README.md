@@ -15,7 +15,7 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 ## Plan de desarrollo por fases (principiante y solo)
 
 1. **Preparar entorno**
-   - Consigue una *ROM limpia* de Rojo Fuego (no la subas al repositorio; compartir ROMs con copyright sin autorización viola derechos de autor).
+   - Consigue una *ROM limpia* de Rojo Fuego (no la subas al repositorio; compartir ROMs con copyright sin autorización viola derechos de autor/propiedad intelectual).
    - Instala emulador (mGBA) y un editor de mapas/eventos (A-Map o similar).
    - Elige flujo de trabajo:  
      - **Ruta Scripts** (más sencilla): usar Poryscript/XSE + A-Map.  
@@ -23,7 +23,7 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 
 2. **Hola Mundo del mod**
    - Ruta Scripts: crea un script sencillo que muestre un diálogo al entrar a un mapa. Compílalo y vincúlalo con A-Map en un evento de personaje.  
-   - Ruta Decomp: clona `pret/pokefirered`, compila, cambia un texto en un evento y vuelve a compilar el ROM base.
+   - Ruta Decomp: clona `pret/pokefirered`, compila, cambia un texto en un evento y vuelve a compilar la ROM base (archivo `.gba`).
 
 3. **Eventos interactivos**
    - Añade un NPC con diálogo condicional (por ejemplo, si tienes X medallas).
