@@ -23,7 +23,7 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 
 2. **Hola Mundo del mod**
    - Ruta Scripts: crea un script sencillo que muestre un diálogo al entrar a un mapa. Compílalo y vincúlalo con A-Map en un evento de personaje.  
-   - Ruta Decomp: clona `pret/pokefirered`, compila, cambia un texto en un evento y vuelve a compilar la ROM base (archivo `.gba`).
+   - Ruta Decomp: clona `pret/pokefirered`, compila, cambia un texto en un evento y vuelve a compilar la ROM resultante (archivo `.gba` modificado).
 
 3. **Eventos interactivos**
    - Añade un NPC con diálogo condicional (por ejemplo, si tienes X medallas).
