@@ -5,7 +5,7 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 ## Qué lenguaje y recursos necesito
 
 - **Scripting específico de Pokémon (Poryscript o XSE):** Sirve para eventos, diálogos y lógica básica.  
-  - Docs: [Poryscript](https://github.com/huderlem/poryscript#readme), guías de XSE en foros de romhacking como [PokéCommunity](https://www.pokecommunity.com/forumdisplay.php?f=180) o [Wah Hack](https://whackahack.com/foro/).
+  - Docs: [Poryscript](https://github.com/huderlem/poryscript#readme), guías de XSE en foros de romhacking como [PokéCommunity](https://www.pokecommunity.com/forumdisplay.php?f=180) o [Whack a Hack](https://whackahack.com/foro/).
 - **C básico (opcional, si usas decompilación pret/pokefirered):** Permite cambios profundos si tomas el proyecto decompilado.  
   - Docs: [K&R C](https://publications.gbdirect.co.uk/c_book/), tutoriales de C en [cppreference](https://en.cppreference.com/w/c).
 - **ARM Assembly GBA (solo nociones, opcional):** Útil para entender parches y hacks.  
@@ -16,7 +16,7 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 
 1. **Preparar entorno**
    - Consigue una *ROM limpia* de Rojo Fuego (haz un volcado de tu propio cartucho; no la subas al repositorio. Descargar ROMs de internet o distribuir ROMs/mods sin autorización suele ser ilegal).
-   - Instala emulador (mGBA) y un editor de mapas/eventos (A-Map o similar).
+   - Instala emulador (mGBA) y un editor de mapas/eventos (AdvanceMap/A-Map o similar).
    - Elige flujo de trabajo:  
      - **Ruta Scripts** (más sencilla): usar Poryscript/XSE + A-Map.  
      - **Ruta Decomp** (más compleja): usar `pret/pokefirered` (requiere devkitARM y C).
