@@ -16,7 +16,7 @@ Proyecto personal para aprender y practicar creación de mods/scripts para Poké
 
 1. **Preparar entorno**
    - Consigue una *ROM limpia* de Rojo Fuego (haz un volcado de tu propio cartucho; no la subas al repositorio. Descargar ROMs de internet o distribuir ROMs/mods sin autorización es ilegal).
-   - Instala emulador (mGBA) y un editor de mapas/eventos (A-Map, también conocido como AdvanceMap, o similar).
+   - Instala emulador (mGBA) y un editor de mapas/eventos (AdvanceMap (A-Map) o similar).
    - Elige flujo de trabajo:  
      - **Ruta Scripts** (más sencilla): usar Poryscript/XSE + A-Map.  
      - **Ruta Decomp** (más compleja): usar `pret/pokefirered` (requiere devkitARM y C).
