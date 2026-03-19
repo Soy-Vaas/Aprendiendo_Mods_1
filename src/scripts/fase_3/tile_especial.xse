@@ -1,0 +1,11 @@
+#dynamic 0x800000
+
+' Tile especial en el suelo - Fase 3
+' Script: al pisarlo muestra un mensaje misterioso.
+
+#org @main
+  msgbox @mensaje MSG_SIGN
+  end
+
+#org @mensaje
+  = Aquí yace el secreto\ndel primer mod.
